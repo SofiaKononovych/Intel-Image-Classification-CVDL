@@ -17,4 +17,5 @@ At the current stage, we have:
 2. Install required libraries:
 ```bash
 pip install torch torchvision matplotlib seaborn
+```
 3. Enable GPU if you run the notebooks in Google Colab or elsewhere.
