@@ -10,6 +10,12 @@ At the current stage, we have:
 - Performed EDA
 - Transformed images into tensors and normalized them.
 - Created DataLoaders for training, validation, testing, and prediction sets.
+- Defined best manually created CNN model (tuned and optimised parameters like lr, number of convolutional layers, fully-connected layers, channels, optimizer etc. - see in notebook)
+- Used Resnet18 pretrained model with my dataset and utilised transfer learning techniques.
+  
+## Best Results
+- Manual CNN: 0.8 f1-score on test 
+- ResNet18: 0.93 f1-score on test
 
 ## Environment Setup
 
